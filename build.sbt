@@ -1,0 +1,6 @@
+organization := "io.github.easel"
+name := "spray-json-examples"
+libraryDependencies += "com.typesafe.akka" %% "akka-http-spray-json" % "10.0.10"
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.1"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" % "test"
+scalaVersion := "2.12.3"

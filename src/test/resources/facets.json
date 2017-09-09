@@ -1,0 +1,38 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 1526,
+    "params": {
+      "q": "*:*",
+      "json.facet": "{\n  duplicate-an-id : {\n    type : terms,\n    field : an_id_s,\n    limit : 10,\n    mincount : 2\n  }\n}\n",
+      "rows": "0",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 304395002,
+    "start": 0,
+    "maxScore": 1.0,
+    "docs": []
+  },
+  "facets": {
+    "count": 304395002,
+    "duplicate-an-id": {
+      "buckets": [
+        {
+          "val": "2.0.0.04bf0588-bd1a-4633-9112-899a47eaf8.08",
+          "count": 437677
+        },
+        {
+          "val": "2.0.01.7001ab9-de12-45.02-8073-172a44b51621",
+          "count": 289393
+        },
+        {
+          "val": "2.0.0.97f3468e-412b-4543-bf13-496c18514.035",
+          "count": 11556
+        }
+      ]
+    }
+  }
+}
